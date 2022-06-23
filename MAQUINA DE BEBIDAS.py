@@ -19,7 +19,36 @@ while n:
                 suma = suma + num 
             p = p + 1
             print ("El total de su compra es:",suma)
-            
+    
+    if sel == "B" or sel== "b":
+        print ("EL COSTO DE LA BEBIDA ES DE 340, SOLO ACEPTA MONEDAS DE 10, 50 Y 100:")
+        moneda = int(input()) 
+        p = 1
+        suma = 0
+        while p <= moneda: 
+            print ("Ingresa una moneda:",p)
+            num = int(input()) 
+            if num % 2 == 0:
+                suma = suma + num 
+            p = p + 1
+            print ("El total de su compra es:",suma)
+
+    if sel == "C" or sel== "c":
+        print ("EL COSTO DE LA BEBIDA ES DE 390, SOLO ACEPTA MONEDAS DE 10, 50 Y 100:")
+        moneda = int(input()) 
+        p = 1
+        suma = 0
+        while p <= moneda: 
+            print ("Ingresa una moneda:",p)
+            num = int(input()) 
+            if num % 2 == 0:
+                suma = suma + num 
+            p = p + 1
+            print ("El total de su compra es:",suma)
+
+    
     if op == "D" or op== "d":
         print ("Hasta luego, vuelve pronto")
         n = False
+
+
